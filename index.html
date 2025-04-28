@@ -12,6 +12,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .navbar-nav .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        
+        .navbar-nav .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #007bff;
+            transition: width 0.3s ease;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: #007bff;
+        }
+        
+        .navbar-nav .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -66,7 +91,7 @@
             <h1>Discover AMR</h1>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="https://static.wixstatic.com/media/86a116_0fe7648f479c4c98a4ffc8602c93f623~mv2.png" alt="AMR Presentation" class="img-fluid">
+                    <img src="https://imgs.search.brave.com/cYDFgJZSYi-qmqQgcvaVgrtbMIpQn2oeO0n5Xgf1Oas/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzE0LzA5LzEwLzkz/LzM2MF9GXzE0MDkx/MDkzMjJfeFJEVFJt/NmkxdzBkNndVZFp4/OXYzRDFZeE9YQVJL/b20uanBn" alt="AMR Presentation" class="img-fluid">
                 </div>
                 <div class="col-lg-6">
                     <div class="content">
@@ -120,7 +145,7 @@
                         </div>
                         <h5>Elsen R. Idulsa</h5>
                         <p class="text-muted">Principal Researcher</p>
-                        <p class="team-bio"text-align: justify;>Elsen is a third-year Bachelor of Science in Pharmacy student at the University of Makati. As the principal researcher of the study "Beyond Awareness: An Action Research to Engage the University of Makati in Embodying AMS Culture," she leads efforts in promoting antimicrobial stewardship (AMS) across the campus community.</p>
+                        <p class="team-bio"text-align: justify;>Elsen is a third-year Bachelor of Science in Pharmacy student at the University of Makati. As the principal researcher of the study "Beyond Awareness: An Action Research to Engage the University of Makati in Embodying AMS Culture," she leads efforts in promoting antimicrobial stewardship (AMS) across the campus community. With a strong background in student leadership and a passion for clinical pharmacy, Elsen is committed to clearing up common misconceptions about antimicrobials, especially the belief that over-the-counter medicines are antibiotics. She currently serves as the Community Extension Coordinator of the UMak Institute of Pharmacy - Student Council and continues to advocate for a</p><br>
                         <p><a href="mailto:eidulsa.a12137468@umak.edu.ph">eidulsa.a12137468@umak.edu.ph</a></p>
                         <div class="contact-links">
                             <a href="https://www.facebook.com/elsenri/" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
@@ -135,7 +160,7 @@
                         </div>
                         <h5>Bernadette D. Anobling</h5>
                         <p class="text-muted">Co-Researcher</p>
-                        <p class="team-bio"text-align: justify;>Bernadette is a third-year Bachelor of Science in Pharmacy student at the University of Makati. As a co-researcher of the study, she contributes her insights on antimicrobial resistance (AMR) and the importance of proper medicine use.</p><br><br>
+                        <p class="team-bio"text-align: justify;>With a strong foundation in pharmacy practice, Bernadette is a third-year Bachelor of Science in Pharmacy student at the University of Makati. She serves as a co-researcher for "Beyond Awareness: An Action Research to Engage the University of Makati in Embodying AMS Culture," where she focuses on promoting the responsible use of antimicrobials. Her experience as a Pharmacy Assistant has exposed her to the urgent challenges posed by antimicrobial resistance (AMR), deepening her commitment to antimicrobial stewardship (AMS) advocacy. Bernadette is dedicated to empowering students and community members to make informed decisions about medication use through education and awareness initiatives.</p>
                         <p><a href="mailto:banobling.k11938314@umak.edu.ph">banobling.k11938314@umak.edu.ph</a></p>
                         <div class="contact-links">
                             <a href="https://www.facebook.com/bernadette.anobling.2024" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
@@ -150,7 +175,7 @@
                         </div>
                         <h5>Keint Erm P. Urbiztondo</h5>
                         <p class="text-muted">Co-Researcher</p>
-                        <p class="team-bio" text-align: justify;>Keint Erm devotes his student research to combat antimicrobial resistance (AMR) which stands as an urgent health emergency of our time. He currently pursues his Bachelor of Science in Pharmacy degree at University of Makati.</p><br><br>
+                        <p class="team-bio" text-align: justify;>Keint Erm devotes his student research to combat antimicrobial resistance (AMR) which stands as an urgent health emergency of our time. He currently pursues his Bachelor of Science in Pharmacy degree at University of Makati while participating in campus initiatives that educate about antibiotic responsibility and promote health awareness. Keint Erm promotes the preservation of lifesaving medications through educational programs and collaborative action and scientific evidence that allows future generations to maintain their effectiveness.</p><br><br><br><br>
                         <p><a href="mailto:kurbiztondo.k12043118@umak.edu.ph">kurbiztondo.k12043118@umak.edu.ph</a></p>
                         <div class="contact-links">
                             <a href="https://www.facebook.com/keint.urbiztondo" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
@@ -178,7 +203,7 @@
                         </div>
 
                         <div class="acknowledgement-item">
-                            <h4>Institute of Pharmacy</h4>
+                            <h4>UMak Institute of Pharmacy</h4>
                             <p>Our deepest appreciation goes to the Institute of Pharmacy for their unwavering support throughout the course of this study. Their dedication to the success of this project has been instrumental in ensuring its smooth execution.</p>
                         </div>
 
@@ -196,35 +221,35 @@
     <section class="learn-more-section py-5">
         <div class="container">
             <h1 class="text-center mb-5">Learn More</h1>
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="learn-more-content">
-                        <h2>Downloadables</h2>
-                        <div class="download-item">
-                            <p>National Action Plan (PNAP) on Antimicrobial Resistance (AMR) 2019-2023</p>
+                    <div class="learn-more-content" style="width: 546px; height: 480px; padding: 30px; border: 2px solid #ddd; border-radius: 8px; box-sizing: border-box;">
+                        <h2 style="font-size: 1.8rem; margin-bottom: 20px;">Downloadables</h2>
+                        <div class="download-item" style="margin-bottom: 20px;">
+                            <p style="font-size: 1.1rem; margin-bottom: 10px;">National Action Plan (PNAP) on Antimicrobial Resistance (AMR) 2019-2023</p>
                             <a href="https://cdn.who.int/media/docs/default-source/antimicrobial-resistance/amr-spc-npm/nap-library/philippine-national-action-plan-on-amr-2019-2023-final.pdf?sfvrsn=8bbe1fdb_1&download=true" class="download-link" download>
-                                <i class="fas fa-file-pdf"></i> Download Link
+                                <i class="fas fa-file-pdf"></i> Download PDF
                             </a>
                         </div>
 
-                        <h2 class="mt-5">Link to WHO resources, DOH campaigns</h2>
-                        <ul class="resource-links">
-                            <li>
+                        <h2 style="font-size: 1.8rem; margin-bottom: 20px;">Link to WHO resources, DOH campaigns</h2>
+                        <ul class="resource-links" style="padding-left: 25px; margin-bottom: 0;">
+                            <li style="font-size: 1.1rem; margin-bottom: 12px;">
                                 <a href="https://data.who.int/countries/608" target="_blank">
                                     <i class="fas fa-external-link-alt"></i> WHO Philippine Data
                                 </a>
                             </li>
-                            <li>
+                            <li style="font-size: 1.1rem; margin-bottom: 12px;">
                                 <a href="https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance" target="_blank">
                                     <i class="fas fa-external-link-alt"></i> Antimicrobial Resistance
                                 </a>
                             </li>
-                            <li>
+                            <li style="font-size: 1.1rem; margin-bottom: 12px;">
                                 <a href="https://www.who.int/campaigns/world-amr-awareness-week" target="_blank">
                                     <i class="fas fa-external-link-alt"></i> World AMR Awareness Week
                                 </a>
                             </li>
-                            <li>
+                            <li style="font-size: 1.1rem; margin-bottom: 12px;">
                                 <a href="https://doh.gov.ph/" target="_blank">
                                     <i class="fas fa-external-link-alt"></i> Department of Health
                                 </a>
@@ -234,38 +259,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="learn-more-image">
-                        <img src=https://static.wixstatic.com/media/a70e3f4925384690ab81aea2c44e5f9e.jpg/v1/fill/w_370,h_394,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/a70e3f4925384690ab81aea2c44e5f9e.jpg>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <img src="https://static.wixstatic.com/media/86a116_9534794885924512ba2c2fc67b8f0f69~mv2.png/v1/fill/w_254,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/86a116_9534794885924512ba2c2fc67b8f0f69~mv2.png" alt="AMS Central Logo" class="logo">
-            <h2 class="text-center">Contact Us</h2>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form-container">
-                        <form id="contactForm">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="First Name" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Last Name" required>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <input type="email" class="form-control" placeholder="Email" required>
-                            </div>
-                            <div class="mb-3">
-                                <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Send Message</button>
-                        </form>
+                        <img src="https://imgs.search.brave.com/0UaOkcDCKH7xEyWImM4_t1K9F0mmcLAQeVwQTJlRzkk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzEwLzI3LzQ1/LzM2MF9GXzQxMDI3/NDU1NV9IbWV1N0pa/OE0zME1WTk12S0M5/b0p1NlByUnJjeHlu/NS5qcGc" style="width: 546px; height: 480px; object-fit: cover; pointer-events: none; user-select: none;">
                     </div>
                 </div>
             </div>
